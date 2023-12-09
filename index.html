@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Survey Form</h1>
+        <div class="survey">
+            <h2>Lets us know how we can improve freeCodeCamp</h2>
+            <form action="">
+                <fieldset>
+                    <legend>What are your contact information?</legend>
+                    <article class="item">
+                        <label>*Name: <input type="text" name="Name" placeholder="Enter your name" required></label>
+                    </article>
+    
+                    <article class="item">
+                        <label>*Email: <input type="text" name="Email" placeholder="Enter your email" required></label>
+                    </article>
+    
+                    <article class="item" id="ageLocation">
+                        <label>*Age: <input type="number" name="Age" id="" required></label>
+                    </article>
+    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Reate us</legend> 
+                    
+                    <article class="item"> 
+                    <label for="">*Which option best describes your current role? 
+                    <select name="Options" id="" required>
+                        <option value="Student">Student</option>
+                        <option value="Teacher">Teaher</option>
+                        <option value="Veli">Veli</option>
+                    </select>
+                    </label>
+                    </article>
+
+                    <article class="item">
+                        <label for="" id="suggestion">How likely is that you would <br> recommend freeCodeCamp to a friend?  
+                        <div>
+                            <input type="radio" name="recommend" value="definitely">definitely 
+                            <input type="radio" name="recommend" value="maybe">maybe
+                            <input type="radio" name="recommend" value="notSure">not sure 
+                        </div>
+                        </label>     
+                    </article>
+                    
+                    <article class="item" >
+                        <label  for="">What do you like most in freeCodeCamp: 
+                        <select name="Options" id="likes">
+                            <option value="Challenges">Challenges</option>
+                            <option value="Examples">Examples</option>
+                            <option value="Practice">Practice</option>
+                        </select>
+                    </label>
+                    </article>
+
+                </fieldset>
+               
+                <fieldset>
+                    <legend>Suggestions for the future</legend>
+                    <article>
+                        <label id="improved">Things that should be improved in the future(Check all that apply!):</label>
+                        <div id="check">
+                            <input id="" type="checkbox" name="" id=""><label id="">Front-end Projects</label><br>
+                            <input id="" type="checkbox" name="" id=""><label id="aaa">Back-end Projects</label><br>                          
+                            <input type="checkbox" name="" id=""><label id="aaa">Data Visualization </label> <br>
+                            <input id="" type="checkbox" name="" id=""><label id="aaa">Challenges</label> <br>
+                            <input type="checkbox" name="" id=""> <label  id="aaa">Open Source Community</label><br>
+                            <input type="checkbox" name="" id=""> <label  id="aaa">Gitter help rooms</label> <br>
+                            <label  id="aaa"><input type="checkbox" name="" id="">Videos</label><br>
+                            <label  id="aaa"><input type="checkbox" name="" id="">City meetups</label><br>
+                            <label  id="aaa"><input type="checkbox" name="" id="">Wiki</label><br>
+                            <label  id="aaa"><input type="checkbox" name="" id="">Forum</label>
+                            </div>
+                    </article>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
